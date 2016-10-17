@@ -4,7 +4,7 @@ const app = express();
 const host = process.env.HOST || '0.0.0.0';
 const port = process.env.PORT || '1337';
 
-app.get('/', (req, res) => res.end('Oh, hell no Kitty!'));
+app.get('/', (req, res) => res.end('Oh, hello Kitty!'));
 
 app.listen(port, host, (err) => {
   if (err) console.log('Oops! Something went wrong!');
