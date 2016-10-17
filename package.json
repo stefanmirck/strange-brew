@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/stefanmirck/strange-brew/issues"
   },
-  "homepage": "https://github.com/stefanmirck/strange-brew#readme"
+  "homepage": "https://github.com/stefanmirck/strange-brew#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
